@@ -24,6 +24,6 @@ This project is licensed under the MIT License.
 ## Diagram
 ![image](https://github.com/user-attachments/assets/448408fb-12cd-4acd-918c-81e2e6c0b5ad)
 
-## Pictures
+## Photos
 ![1](https://github.com/user-attachments/assets/6b36d9cf-b60d-46cb-8425-f624015ed02a)
 ![3](https://github.com/user-attachments/assets/5e5bff2d-5368-4256-9df9-1ca687285d44)
