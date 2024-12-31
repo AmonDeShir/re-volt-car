@@ -5,8 +5,8 @@ A simple Arduino-based RC car.
 ## About
 The robot operates in three modes:
 1. **Idle:** The robot waits and reacts to surrounding noises, lifting, and touches.
-2. **RC:** -> The robot acts as an RC car and can be controlled via Bluetooth.
-3. **Follow:** -> The robot uses an HC-SR04 sensor to maintain a fixed distance from a target.
+2. **RC:** The robot acts as an RC car and can be controlled via Bluetooth.
+3. **Follow:** The robot uses an HC-SR04 sensor to maintain a fixed distance from a target.
 
 ## Project strucure
 The project is divided into three parts: hardware, software, and embedded systems.
