@@ -19,7 +19,7 @@ The hardware and embedded components are mostly complete.
 The controller app is still in progress, but any Bluetooth terminal app can be used to control the robot for now.
 
 ## Licence
-Mit
+This project is licensed under the MIT License.
 
 ## Diagram
 ![image](https://github.com/user-attachments/assets/448408fb-12cd-4acd-918c-81e2e6c0b5ad)
