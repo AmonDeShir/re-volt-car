@@ -227,7 +227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -5.08 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -245,7 +245,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -7.62 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -336,8 +336,8 @@
 			)
 		)
 		(symbol "BW-3SJH-25A_1_1"
-			(pin input line
-				(at 10.16 0 180)
+			(pin output line
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "B1"
 					(effects
@@ -372,8 +372,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 -2.54 180)
+			(pin input line
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "B2"
 					(effects
@@ -484,9 +484,9 @@
 				)
 			)
 			(arc
-				(start -10.1599 9.144)
-				(mid -7.6199 7.5742)
-				(end -5.0799 9.144)
+				(start -10.1599 -3.81)
+				(mid -7.6199 -5.3798)
+				(end -5.0799 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -496,9 +496,9 @@
 				)
 			)
 			(arc
-				(start -10.1599 14.224)
-				(mid -10.7595 11.684)
-				(end -10.1599 9.144)
+				(start -10.1599 1.27)
+				(mid -10.7595 -1.27)
+				(end -10.1599 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -508,9 +508,9 @@
 				)
 			)
 			(arc
-				(start -5.0799 9.144)
-				(mid -4.4803 11.684)
-				(end -5.0799 14.224)
+				(start -5.0799 -3.81)
+				(mid -4.4803 -1.27)
+				(end -5.0799 1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -520,9 +520,9 @@
 				)
 			)
 			(arc
-				(start -5.0799 14.224)
-				(mid -7.6199 15.7938)
-				(end -10.1599 14.224)
+				(start -5.0799 1.27)
+				(mid -7.6199 2.8398)
+				(end -10.1599 1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -533,7 +533,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 11.684) (xy -8.89 10.414)
+					(xy -7.62 -1.27) (xy -8.89 -2.54)
 				)
 				(stroke
 					(width 0.508)
@@ -545,7 +545,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 11.684) (xy -8.89 12.954)
+					(xy -7.62 -1.27) (xy -8.89 0)
 				)
 				(stroke
 					(width 0.508)
@@ -557,7 +557,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 14.224) (xy -6.35 12.954) (xy -7.62 11.684) (xy -6.35 10.414) (xy -7.62 9.144) (xy -7.62 14.224)
+					(xy -7.62 1.27) (xy -6.35 0) (xy -7.62 -1.27) (xy -6.35 -2.54) (xy -7.62 -3.81) (xy -7.62 1.27)
 				)
 				(stroke
 					(width 0.508)
@@ -570,7 +570,7 @@
 		)
 		(symbol "HC-06_1_1"
 			(pin input line
-				(at -20.32 5.08 0)
+				(at -20.32 8.89 0)
 				(length 5.08)
 				(name "STATE"
 					(effects
@@ -588,25 +588,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -2.54 0)
-				(length 5.08)
-				(name "UART_RX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 2.54 0)
+				(at -20.32 11.43 0)
 				(length 5.08)
 				(name "UART_RX"
 					(effects
@@ -624,7 +606,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 0 0)
+				(at -20.32 13.97 0)
 				(length 5.08)
 				(name "UART_TX"
 					(effects
@@ -678,7 +660,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -5.08 0)
+				(at -20.32 6.35 0)
 				(length 5.08)
 				(name "EN"
 					(effects
