@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9eea379c-2241-42e3-ad59-a785de5f88fe")
+	(paper "A4")
+	(title_block
+		(title "ReVolt Car")
+		(date "2024-12-10")
+		(rev "1")
+		(company "Dominik Purgał")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
