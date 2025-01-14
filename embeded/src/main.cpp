@@ -18,6 +18,8 @@ RangeFinder rangefinder(11, 12);
 TouchDetector touch_detector;
 
 volatile int mode = 0;
+volatile unsigned long next_mode_change = 0;
+
 const int mode_size = 3;
 const int mode_leds[mode_size] = { 5, 6, 7 };
 
@@ -56,8 +58,14 @@ void setup() {
 
 void change_mode() {
   noInterrupts();
-  delay(500);
+
+  if (next_mode_change > millis()) {
+    return;  
+  }
+
+  next_mode_change = millis() + 250;
   interrupts();
+
 
   playmodes[mode]->exit();
   
